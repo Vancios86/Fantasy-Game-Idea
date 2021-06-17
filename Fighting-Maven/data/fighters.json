@@ -1,0 +1,34 @@
+[
+        {
+                "name": "Conor McGregor",
+                "record": "21-4-0",
+                "weight": "77kg",
+                "height": "177cm",
+                "reach": "78",
+                "imagePath": "./assets/fighters/ConorMcGregor.png"
+        },
+        {
+                "name": "Dustin Poirier",
+                "record": "27-5-1",
+                "weight": "78kg",
+                "height": "175cm",
+                "reach": "73",
+                "imagePath": "./assets/fighters/DustinPoirier.jpg"
+        },
+        {
+                "name": "Jon Jones",
+                "record": "20-0-0",
+                "weight": "100kg",
+                "height": "188cm",
+                "reach": "92",
+                "imagePath": "./assets/fighters/JonJones.png"
+        },
+        {
+                "name": "Israel Adesanya",
+                "record": "27-1-0",
+                "weight": "82kg",
+                "height": "186cm",
+                "reach": "88",
+                "imagePath": "./assets/fighters/IsraelAdesanya.jpg"
+        }
+]
