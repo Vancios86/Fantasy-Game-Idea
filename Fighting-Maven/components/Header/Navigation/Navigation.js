@@ -8,12 +8,12 @@ class Navigation extends HTMLElement {
             <ul>
                 <li>About Us</li>
                 <li>Events</li>
-                <li>Sign-In<li>
+                <li>Sign-In</li>
             </ul>
         </div>    
     `
     }
 }
 
-window.customElements.define('navigation', Navigation)
+window.customElements.define('nav-area', Navigation)
 export default Navigation

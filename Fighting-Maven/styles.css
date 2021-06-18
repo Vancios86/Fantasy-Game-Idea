@@ -1,3 +1,31 @@
+.navigation {
+  padding: 10px;
+}
+
+.navigation ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  list-style: none;
+}
+
+.navigation li {
+  margin-left: 2em;
+  font-size: 1.1em;
+  font-weight: bold;
+  color: blanchedalmond;
+}
+
+.navigation li:hover {
+  color: #f3e526;
+}
+
 Header {
   width: 100%;
   height: 100px;
@@ -15,12 +43,44 @@ Header {
           align-items: center;
 }
 
+Header .logo {
+  max-width: 150px;
+}
+
 * {
   margin: 0;
   padding: 0;
 }
 
-.logo {
-  max-width: 150px;
+main {
+  width: 100%;
+  height: 80vh;
+  border: solid black;
+  background-image: url("./assets/PRO_MMA_CAGE.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+}
+
+main h1 {
+  color: red;
+  opacity: 0.9;
+  font-size: 3em;
+  position: absolute;
+  top: 0;
+}
+
+main h2 {
+  color: #fd4747;
+  font-size: 2em;
 }
 /*# sourceMappingURL=styles.css.map */

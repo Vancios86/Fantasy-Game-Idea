@@ -4,6 +4,27 @@
     margin: 0;
     padding: 0;
 }
-.logo {
-    max-width: 150px; 
-}
+ main {
+     width: 100%;
+     height: 80vh;
+     border: solid black;
+     background-image: url('./assets/PRO_MMA_CAGE.jpg');
+     background-size: cover;
+     background-repeat: no-repeat;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     position: relative;
+     h1 {
+         color: red;
+         opacity: 0.9;
+         font-size: 3em;
+         position: absolute;
+         top: 0;
+    
+     }
+     h2 {
+         color: rgb(253, 71, 71);
+         font-size: 2em;
+     }    
+ }
