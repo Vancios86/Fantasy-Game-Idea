@@ -28,8 +28,8 @@
 
 Header {
   width: 100%;
-  height: 100px;
-  border-bottom: 1px solid black;
+  height: 101px;
+  border-bottom: 2px solid black;
   background: -webkit-gradient(linear, left top, right top, from(white), to(#ee0505));
   background: linear-gradient(to right, white, #ee0505);
   display: -webkit-box;
@@ -77,10 +77,35 @@ main h1 {
   font-size: 3em;
   position: absolute;
   top: 0;
+  text-shadow: 0.1ch 0.1ch blanchedalmond;
 }
 
 main h2 {
-  color: #fd4747;
+  color: red;
   font-size: 2em;
+  position: absolute;
+  padding: 1em;
+  text-shadow: 0.1ch 0.1ch blanchedalmond;
+}
+
+footer {
+  width: 100%;
+  height: 101px;
+  border-top: 2px solid black;
+  background: -webkit-gradient(linear, left top, right top, from(#ee0505), to(white));
+  background: linear-gradient(to right, #ee0505, white);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+footer h3 {
+  color: blanchedalmond;
 }
 /*# sourceMappingURL=styles.css.map */
