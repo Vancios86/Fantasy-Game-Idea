@@ -8,12 +8,13 @@
    list-style: none;
     }
    li {
-       margin-left: 2em;
+       margin-left: 2.5em;
        font-size: 1.1em;
        font-weight: bold;
        color: blanchedalmond;
    }
    li:hover {
-    color: rgb(243, 229, 38);
+    text-decoration: overline underline;
+    cursor: pointer;
     }
 }

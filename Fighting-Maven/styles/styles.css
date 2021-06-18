@@ -16,14 +16,15 @@
 }
 
 .navigation li {
-  margin-left: 2em;
+  margin-left: 2.5em;
   font-size: 1.1em;
   font-weight: bold;
   color: blanchedalmond;
 }
 
 .navigation li:hover {
-  color: #f3e526;
+  text-decoration: overline underline;
+  cursor: pointer;
 }
 
 Header {
@@ -47,6 +48,40 @@ Header .logo {
   max-width: 150px;
 }
 
+.about {
+  width: 100vw;
+  height: 80vh;
+  position: relative;
+  background-color: blanchedalmond;
+  background-blend-mode: difference;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.about h2 {
+  position: absolute;
+  top: 0;
+}
+
+.about .block {
+  display: inline-block;
+}
+
+.about img {
+  max-width: 300px;
+  max-height: 300px;
+  -webkit-box-shadow: 0.5ch 0.5ch 0.5ch red;
+          box-shadow: 0.5ch 0.5ch 0.5ch red;
+  margin: 3%;
+}
+
+.about p {
+  padding: 5%;
+  overflow-y: scroll;
+  font-size: 1.3em;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -55,7 +90,6 @@ Header .logo {
 main {
   width: 100%;
   height: 80vh;
-  border: solid black;
   background-image: url("./assets/PRO_MMA_CAGE.jpg");
   background-size: cover;
   background-repeat: no-repeat;
