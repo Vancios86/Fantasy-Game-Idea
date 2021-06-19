@@ -1,6 +1,6 @@
 
 .navigation {
-    padding: 10px;
+    padding: 5px;
     ul {
    display: flex;
    justify-content: space-evenly;
@@ -8,8 +8,8 @@
    list-style: none;
     }
    li {
-       margin-left: 2.5em;
-       font-size: 1.1em;
+       margin-right: 0.5em;
+       font-size: 1em;
        font-weight: bold;
        color: blanchedalmond;
    }
@@ -17,4 +17,15 @@
     text-decoration: overline underline;
     cursor: pointer;
     }
+}
+
+@media screen and (min-width: 600px) {
+    .navigation {
+        padding: 10px;
+    }
+    li {
+        margin-left: 2em;
+        font-size: 1.3em;
+    }
+
 }

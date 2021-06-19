@@ -2,45 +2,74 @@
 @import "../components/Header/Navigation/About/About";
 
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
- main {
-     width: 100%;
-     height: 80vh;
-     background-image: url('./assets/PRO_MMA_CAGE.jpg');
-     background-size: cover;
-     background-repeat: no-repeat;
-     display: flex;
-     justify-content: center;
-     align-items: center;
-     position: relative;
-     h1 {
-         color: red;
-         opacity: 0.9;
-         font-size: 3em;
-         position: absolute;
-         top: 0;
-         text-shadow: 0.1ch 0.1ch blanchedalmond;
-     }
-     h2 {
-         color: red;
-         font-size: 2em;
-         position: absolute;
-         padding: 1em;
-         text-shadow: 0.1ch 0.1ch blanchedalmond;
-     }    
- }
+main {
+  width: 100%;
+  height: 90vh;
+  background-image: url("./assets/boxerS.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  h1 {
+    color: red;
+    opacity: 0.9;
+    font-size: 2em;
+    position: absolute;
+    top: 0;
+    text-shadow: 0.1ch 0.1ch blanchedalmond;
+  }
+  h2 {
+    color: red;
+    font-size: 1.5em;
+    position: absolute;
+    padding: 1em;
+    text-shadow: 0.1ch 0.1ch blanchedalmond;
+  }
+}
 
- footer {
+footer {
+  width: 100%;
+  height: 70px;
+  border-top: 1px solid black;
+  background: linear-gradient(to right, rgb(238, 5, 5), rgb(255, 255, 255));
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  h3 {
+    color: blanchedalmond;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  main {
     width: 100%;
+    height: 90vh;
+    background-image: url("./assets/PRO_MMA_CAGE.jpg");
+    flex-direction: row;
+    h1 {
+      color: red;
+      opacity: 0.9;
+      font-size: 3em;
+      position: absolute;
+      top: 0;
+      text-shadow: 0.1ch 0.1ch blanchedalmond;
+    }
+    h2 {
+      color: red;
+      font-size: 2em;
+      position: absolute;
+      padding: 1em;
+      text-shadow: 0.1ch 0.1ch blanchedalmond;
+    }
+  }
+  footer {
     height: 101px;
     border-top: 2px solid black;
-    background: linear-gradient(to right, rgb(238, 5, 5), rgb(255, 255, 255));
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    h3 {
-        color: blanchedalmond;
-    }
- }
+  }
+}

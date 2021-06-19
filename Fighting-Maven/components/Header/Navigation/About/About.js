@@ -6,8 +6,8 @@ class About extends HTMLElement {
         this.innerHTML = `
             <div class="about">
                 <h2 class="block">Who am I</h2>
-                <img src="./assets/me.jpeg" alt="" class="block">
-                <p>
+                <img src="./assets/me.jpeg" alt="" class="block" id="aboutPhoto">
+                <p id="aboutText">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
                     sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
                     Diam donec adipiscing tristique risus nec feugiat. 
