@@ -96,7 +96,7 @@ Header .logo {
 
 .about #aboutText {
   padding: 5%;
-  overflow: scroll;
+  overflow-y: scroll;
   font-size: 1.2em;
 }
 
@@ -110,6 +110,7 @@ Header .logo {
     width: 400px;
   }
   #aboutText {
+    max-width: 1080px;
     font-size: 1.5em;
   }
 }
