@@ -7,7 +7,7 @@ class Navigation extends HTMLElement {
         <div class="navigation">
             <ul>
                 <li id="about">About</li>
-                <li>Events</li>
+                <li id="events">Events</li>
                 <li>Sign-In</li>
             </ul>
         </div>    
