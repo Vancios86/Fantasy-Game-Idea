@@ -115,7 +115,9 @@ Header .logo {
   }
 }
 
-.eventsPage {
+.eventInfo {
+  width: 80vw;
+  height: 300px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -123,6 +125,20 @@ Header .logo {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  border: 1px solid black;
+  margin: 3em;
+}
+
+.eventsPage {
+  width: 100vw;
+  max-height: 80vh;
+  overflow-y: scroll;
 }
 
 * {
@@ -152,7 +168,7 @@ main {
   position: relative;
 }
 
-main h1 {
+main .mainH1 {
   color: red;
   opacity: 0.9;
   font-size: 2em;
@@ -161,7 +177,7 @@ main h1 {
   text-shadow: 0.1ch 0.1ch blanchedalmond;
 }
 
-main h2 {
+main .mainH2 {
   color: red;
   font-size: 1.5em;
   position: absolute;
@@ -186,7 +202,7 @@ footer {
           align-items: center;
 }
 
-footer h3 {
+footer .footerH3 {
   color: blanchedalmond;
 }
 
@@ -200,7 +216,7 @@ footer h3 {
         -ms-flex-direction: row;
             flex-direction: row;
   }
-  main h1 {
+  main .mainH1 {
     color: red;
     opacity: 0.9;
     font-size: 3em;
@@ -208,7 +224,7 @@ footer h3 {
     top: 0;
     text-shadow: 0.1ch 0.1ch blanchedalmond;
   }
-  main h2 {
+  main .mainH2 {
     color: red;
     font-size: 2em;
     position: absolute;

@@ -1,6 +1,7 @@
 @import "../components/Header/Header";
 @import "../components/Header/Navigation/About/About";
-@import "../components/Header/Navigation/Events/Events/Events";
+@import "../components/Event/EventInfo";
+@import "../components/Events/Events";
 
 * {
   margin: 0;
@@ -17,7 +18,7 @@ main {
   justify-content: center;
   align-items: center;
   position: relative;
-  h1 {
+  .mainH1 {
     color: red;
     opacity: 0.9;
     font-size: 2em;
@@ -25,7 +26,7 @@ main {
     top: 0;
     text-shadow: 0.1ch 0.1ch blanchedalmond;
   }
-  h2 {
+  .mainH2 {
     color: red;
     font-size: 1.5em;
     position: absolute;
@@ -42,7 +43,7 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  h3 {
+  .footerH3 {
     color: blanchedalmond;
   }
 }
@@ -53,7 +54,7 @@ footer {
     height: 90vh;
     background-image: url("./assets/PRO_MMA_CAGE.jpg");
     flex-direction: row;
-    h1 {
+    .mainH1 {
       color: red;
       opacity: 0.9;
       font-size: 3em;
@@ -61,7 +62,7 @@ footer {
       top: 0;
       text-shadow: 0.1ch 0.1ch blanchedalmond;
     }
-    h2 {
+    .mainH2 {
       color: red;
       font-size: 2em;
       position: absolute;

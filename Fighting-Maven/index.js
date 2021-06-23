@@ -2,8 +2,8 @@
 
 import Navigation from "./components/Header/Navigation/Navigation.js";
 import About from "./components/Header/Navigation/About/About.js";
-import Events from "./components/Header/Navigation/Events/Events/Events.js";
-import EventInfo from "./components/Header/Navigation/Events/EventInfo.js";
+import Events from "./components/Events/Events.js";
+import EventInfo from "./components/Event/EventInfo.js";
 
 
 const events = document.getElementById('events');
