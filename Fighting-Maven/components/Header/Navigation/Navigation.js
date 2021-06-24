@@ -6,7 +6,6 @@ class Navigation extends HTMLElement {
     this.innerHTML = `
         <div class="navigation">
             <ul>
-                <li id="about">About</li>
                 <li id="events">Events</li>
                 <li>Sign-In</li>
             </ul>

@@ -65,58 +65,9 @@ Header .logo {
   }
 }
 
-.about {
-  width: 100vw;
-  height: 90vh;
-  position: relative;
-  background-color: blanchedalmond;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.about .block {
-  display: inline-block;
-}
-
-.about #aboutPhoto {
-  max-width: 300px;
-  max-height: 300px;
-  -webkit-box-shadow: 0.5ch 0.5ch 0.5ch red;
-          box-shadow: 0.5ch 0.5ch 0.5ch red;
-  margin: 3%;
-}
-
-.about #aboutText {
-  padding: 5%;
-  overflow-y: scroll;
-  font-size: 1.2em;
-}
-
-@media screen and (min-width: 600px) {
-  .about {
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-  }
-  #aboutPhoto {
-    width: 400px;
-  }
-  #aboutText {
-    max-width: 1080px;
-    font-size: 1.5em;
-  }
-}
-
 .eventInfo {
   width: 80vw;
+  max-width: 600px;
   height: 300px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -132,13 +83,36 @@ Header .logo {
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
   border: 1px solid black;
-  margin: 3em;
+  margin: 2em;
+  background: -webkit-gradient(linear, left top, right bottom, from(rgba(255, 255, 255, 0.2)), to(rgba(255, 255, 255, 0.6)));
+  background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.6));
+  -webkit-backdrop-filter: blur(0.1rem);
+          backdrop-filter: blur(0.1rem);
 }
 
 .eventsPage {
   width: 100vw;
   max-height: 80vh;
   overflow-y: scroll;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media screen and (min-width: 1080px) {
+  .eventsPage {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+  }
 }
 
 * {
@@ -206,7 +180,7 @@ footer .footerH3 {
   color: blanchedalmond;
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 1080px) {
   main {
     width: 100%;
     height: 90vh;

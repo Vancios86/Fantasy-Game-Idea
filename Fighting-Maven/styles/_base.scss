@@ -1,5 +1,4 @@
 @import "../components/Header/Header";
-@import "../components/Header/Navigation/About/About";
 @import "../components/Event/EventInfo";
 @import "../components/Events/Events";
 
@@ -48,7 +47,7 @@ footer {
   }
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 1080px) {
   main {
     width: 100%;
     height: 90vh;

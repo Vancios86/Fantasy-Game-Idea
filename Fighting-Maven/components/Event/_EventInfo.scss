@@ -1,10 +1,13 @@
 .eventInfo {
     width: 80vw;
+    max-width: 600px;
     height: 300px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
     border: 1px solid black;
-    margin: 3em;
+    margin: 2em;
+    background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.6));
+    backdrop-filter: blur(0.1rem);
 }

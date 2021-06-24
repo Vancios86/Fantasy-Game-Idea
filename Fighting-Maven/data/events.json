@@ -1,17 +1,31 @@
-[
-        {
+[{
                 "name": "UFC 260",
                 "date": "December 21",
-                "mainEvent": "McGregor vs Poirier"    
+                "mainEvent": "McGregor vs Poirier"
         },
         {
                 "name": "UFC 261",
                 "date": "January 3",
-                "mainEvent": "Adesanya vs Whitaker"  
+                "mainEvent": "Adesanya vs Whitaker"
         },
         {
                 "name": "UFC 262",
                 "date": "January 17",
-                "mainEvent": "Miocic vs Cormier"  
+                "mainEvent": "Miocic vs Cormier"
+        },
+        {
+                "name": "UFC 263",
+                "date": "January 30",
+                "mainEvent": "Khabib Nurmagamedov vs Justin Gaetche"
+        },
+        {
+                "name": "UFC 264",
+                "date": "February 14",
+                "mainEvent": "Kamaru Usman vs Jorge Masvidal"  
+        },
+        {
+                "name": "UFC 265",
+                "date": "February 28",
+                "mainEvent": "Nate Diaz vs Leon Edwards"  
         }
 ]
